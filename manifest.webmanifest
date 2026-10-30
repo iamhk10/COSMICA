@@ -1,0 +1,25 @@
+{
+  "name": "Cosmica — Sky map",
+  "short_name": "Cosmica",
+  "description": "Tonight's Moon, Sun, planets and stars for your place. Works offline. English and Hinglish.",
+  "id": "./",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#070b1a",
+  "theme_color": "#070b1a",
+  "lang": "en",
+  "categories": ["education", "science"],
+  "shortcuts": [
+    { "name": "Tonight", "url": "./index.html#/", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Sky events", "url": "./index.html#/events", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "AR sky", "url": "./index.html#/ar", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
